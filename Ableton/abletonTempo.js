@@ -16,9 +16,8 @@ function setTempo(elTempo){
 	liveObject.set("tempo", elTempo);
 }
 
-
-
-//Funcion de log para sacar los mensajes por la ventana de mam cmd+m
+//Funcion de log para sacar los mensajes por la ventana MAX (cmd+m)
+//log Function from Adam Murray (http://compusition.com).
 function log() {
 	for(var i=0,len=arguments.length; i<len; i++) {
 		var message = arguments[i];
